@@ -42,6 +42,8 @@ CUDA_VISIBLE_DEVICES=0 torchrun --standalone --nproc_per_node=gpu sample.py --dd
 ```
 Please view _sample.py_ to learn more about the hyperparameters.
 
+**Classifier-free diffusion model's implementation is mainly based on [this repository](https://github.com/coderpiaobozhe/classifier-free-diffusion-guidance-Pytorch). We thank the author for the beautiful implementation.**
+
 ## BibTeX
 
 ```

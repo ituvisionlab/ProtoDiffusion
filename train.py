@@ -13,7 +13,7 @@ from scheduler import GradualWarmupScheduler
 from dataloaders import load_cifar10, load_stl10, load_tiny_imagenet
 from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import get_rank, init_process_group, destroy_process_group
-from prototype_classifier import ModifiedResNet
+from Models import ModifiedResNet
 import random
 import time 
 
